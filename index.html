@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de textos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Vector.png">
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <img class="logo" src="./Vector.png" alt="Logo Alura" />
+
+        <div class="area-entrada">
+          <textarea id="textoescrito" class="entrada-texto" placeholder="Digite seu texto"></textarea>
+
+          <div class="area-submit">
+            <div class="aviso">
+              <img src="./bi_exclamation-circle-fill.svg" alt="" />
+              <p>Apenas letras minúsculas e sem acentos</p>
+            </div>
+
+            <div class="buttons">
+              <button id="criptografar">Criptografar</button>
+              <button id="descriptografar">Descriptografar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="area-saida">
+          <div class="texto-saida" id="divtexto">
+            <p id="textosaida"></p>
+            <button id="copiar">Copiar</button>
+          </div>
+          <div class="saida-content" id="divimagem">
+            <img src="./600px-Warning.svg_.png" alt="">
+            <h1>Nenhuma mensagem encontrada</h1>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>©Copyright Criptografia Online - Todos os direitos reservados - Developer Maurício Souza</p>
+      <a href="https://www.linkedin.com/in/maur%C3%ADcio-souza-da-silva-aa8218176/" target="_blank" rel="noopener noreferrer"><img src="./Linkedin.png" class="social-linkedin"></a>
+      <a href="https://github.com/Mauricio2025" target="_blank" rel="noopener noreferrer"><img src="./Github.png" class="social-github"></a>	
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
